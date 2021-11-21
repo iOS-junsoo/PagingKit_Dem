@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BB80FAFFC1CF7D139A9D475D1B6F52 /* PagingMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F5B02EB7FA5D5E7DA63CC76025BCB /* PagingMenuView.swift */; };
+		219D268CB0D10617DEDA08539C7DB963 /* PagingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF939C787FD9914E363FF7FA4A4EDF46 /* PagingMenuViewController.swift */; };
+		24A835DBF5386F61586BCABAC0F6A82D /* Array+NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F830B3973D9DF1378407A9F5C370BF9B /* Array+NSLayoutConstraint.swift */; };
+		2A70ED82C3A257D65E8093B91D1CE368 /* PagingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4DFC9420A1F38A23CC6BADD72F9B3 /* PagingContentViewController.swift */; };
+		5A11634405DFBBDEEEBBC2E9003AA370 /* UnderlineFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F75FF02E76D71C32A08C3BB258E94 /* UnderlineFocusView.swift */; };
+		5FFEE5149770B046125D06C4C36A22F3 /* OverlayFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBDD9BD649627B5FB12E824F35C5AC /* OverlayFocusView.swift */; };
+		81C26ABC43335FD586561204399FFEEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A563B2C2DCC81713272F36FDF46A6015 /* Pods-ViewPager_Dem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ECFB28B676085E9E92CC1E6BD42D26 /* Pods-ViewPager_Dem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC3601EE0A718C8038293A2DA7355E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B24F491886205B8C2BF566D78A62CC70 /* Pods-ViewPager_Dem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41082DB8D2BE40E0CB0103DD22569EB3 /* Pods-ViewPager_Dem-dummy.m */; };
+		BBE3523397EEED198EA1AB0E6A32FA55 /* OverlayMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB8F8B4EB4769078EDA6442B5858D02 /* OverlayMenuCell.swift */; };
+		C536BD85890B8A0F6F701FE26D06569A /* ContentAppearanceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A79AB70D6FB6F3C25A58824EA5D249 /* ContentAppearanceHandler.swift */; };
+		C9CF80B6A9390F7411E1435A9DD92E9E /* PagingKitProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B351BD75907210755697E1ACDB5C50 /* PagingKitProxy.swift */; };
+		D1825CB5F3FB1840C0635824263C7E15 /* PagingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DD83AEDC2EB83B53C964B271DEC1A5 /* PagingKit-dummy.m */; };
+		D5A518E1B8F6357195444B7579156D35 /* PagingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6ED0016A17F74115D33A8BC1B5A0D6 /* PagingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA6206872C637782744828365EB4037 /* TitleLabelMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D21625A903300D1D1F4055943D13B /* TitleLabelMenuViewCell.swift */; };
+		EBD06D9159AA6EBC277EEB6451F827B2 /* PagingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F64AEB2BB8670F6D641728C2BDE392D2 /* PagingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43133F0A14510C90C41775203E81DCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0EC2DA62F1B2EC342F986026BBD672;
+			remoteInfo = PagingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E85D9968C7E17EF4127D9DB19AD0BF9 /* Pods-ViewPager_Dem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewPager_Dem.release.xcconfig"; sourceTree = "<group>"; };
+		122D21625A903300D1D1F4055943D13B /* TitleLabelMenuViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleLabelMenuViewCell.swift; path = "Sources/Menu Cells/Underline/TitleLabelMenuViewCell.swift"; sourceTree = "<group>"; };
+		2381BAB9E2D6D4F2856609D8BC268EA8 /* Pods-ViewPager_Dem-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewPager_Dem-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D476B4A35EB3697429978E9051B56C1 /* PagingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingKit.release.xcconfig; sourceTree = "<group>"; };
+		2EA62F8103316B327AF53EE3A6C272E5 /* Pods-ViewPager_Dem */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViewPager_Dem"; path = Pods_ViewPager_Dem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A79AB70D6FB6F3C25A58824EA5D249 /* ContentAppearanceHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentAppearanceHandler.swift; path = Sources/ContentAppearanceHandler.swift; sourceTree = "<group>"; };
+		36DDC63CA866758BFD08FED84E0C2FEE /* Pods-ViewPager_Dem-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewPager_Dem-frameworks.sh"; sourceTree = "<group>"; };
+		41082DB8D2BE40E0CB0103DD22569EB3 /* Pods-ViewPager_Dem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewPager_Dem-dummy.m"; sourceTree = "<group>"; };
+		4DC76DC53B80080AFC4ADC1B3597F226 /* Pods-ViewPager_Dem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewPager_Dem-Info.plist"; sourceTree = "<group>"; };
+		53DBDD9BD649627B5FB12E824F35C5AC /* OverlayFocusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayFocusView.swift; path = "Sources/Menu Cells/Overlay/OverlayFocusView.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81B20635817DCBABD48C01E265D7ECC1 /* PagingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingKit-prefix.pch"; sourceTree = "<group>"; };
+		81DD83AEDC2EB83B53C964B271DEC1A5 /* PagingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingKit-dummy.m"; sourceTree = "<group>"; };
+		8B6ED0016A17F74115D33A8BC1B5A0D6 /* PagingKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PagingKit.h; path = Sources/PagingKit.h; sourceTree = "<group>"; };
+		8E2F5B02EB7FA5D5E7DA63CC76025BCB /* PagingMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuView.swift; path = Sources/PagingMenuView.swift; sourceTree = "<group>"; };
+		99ECFB28B676085E9E92CC1E6BD42D26 /* Pods-ViewPager_Dem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewPager_Dem-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0E1844ABE8E2C7DA50E01184FA80261 /* PagingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingKit.debug.xcconfig; sourceTree = "<group>"; };
+		BF939C787FD9914E363FF7FA4A4EDF46 /* PagingMenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuViewController.swift; path = Sources/PagingMenuViewController.swift; sourceTree = "<group>"; };
+		C36B83EA0ABE09EEF7D8E1F49E1C5193 /* Pods-ViewPager_Dem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViewPager_Dem.modulemap"; sourceTree = "<group>"; };
+		C43F75FF02E76D71C32A08C3BB258E94 /* UnderlineFocusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderlineFocusView.swift; path = "Sources/Menu Cells/Underline/UnderlineFocusView.swift"; sourceTree = "<group>"; };
+		C444F9D2E3EE48AD63181009D3A187B3 /* PagingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PagingKit.modulemap; sourceTree = "<group>"; };
+		C7FC4D5702D76C6FFDCE6FB5A34E2CDA /* PagingKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PagingKit-Info.plist"; sourceTree = "<group>"; };
+		CD26BE284B3457124829CB4C4FCE8AD6 /* PagingKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagingKit; path = PagingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B351BD75907210755697E1ACDB5C50 /* PagingKitProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingKitProxy.swift; path = Sources/PagingKitProxy.swift; sourceTree = "<group>"; };
+		EBB8F8B4EB4769078EDA6442B5858D02 /* OverlayMenuCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayMenuCell.swift; path = "Sources/Menu Cells/Overlay/OverlayMenuCell.swift"; sourceTree = "<group>"; };
+		F3E4DFC9420A1F38A23CC6BADD72F9B3 /* PagingContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingContentViewController.swift; path = Sources/PagingContentViewController.swift; sourceTree = "<group>"; };
+		F64AEB2BB8670F6D641728C2BDE392D2 /* PagingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingKit-umbrella.h"; sourceTree = "<group>"; };
+		F7FAE766A008224E5E231A180B96FAFD /* Pods-ViewPager_Dem-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewPager_Dem-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F830B3973D9DF1378407A9F5C370BF9B /* Array+NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+NSLayoutConstraint.swift"; path = "Sources/Array+NSLayoutConstraint.swift"; sourceTree = "<group>"; };
+		FF1885225EE66751279D4CF74458947D /* Pods-ViewPager_Dem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewPager_Dem.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D8ABB645044CF815C31F738E30F1E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC3601EE0A718C8038293A2DA7355E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E83417CB924E2DDD207C454F25D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C26ABC43335FD586561204399FFEEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC1D4DD7A368CE33146C9C8E25AC746 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D1890A9BC7E63A2AF868DFEF0BE851E /* Pods-ViewPager_Dem */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1D1890A9BC7E63A2AF868DFEF0BE851E /* Pods-ViewPager_Dem */ = {
+			isa = PBXGroup;
+			children = (
+				C36B83EA0ABE09EEF7D8E1F49E1C5193 /* Pods-ViewPager_Dem.modulemap */,
+				F7FAE766A008224E5E231A180B96FAFD /* Pods-ViewPager_Dem-acknowledgements.markdown */,
+				2381BAB9E2D6D4F2856609D8BC268EA8 /* Pods-ViewPager_Dem-acknowledgements.plist */,
+				41082DB8D2BE40E0CB0103DD22569EB3 /* Pods-ViewPager_Dem-dummy.m */,
+				36DDC63CA866758BFD08FED84E0C2FEE /* Pods-ViewPager_Dem-frameworks.sh */,
+				4DC76DC53B80080AFC4ADC1B3597F226 /* Pods-ViewPager_Dem-Info.plist */,
+				99ECFB28B676085E9E92CC1E6BD42D26 /* Pods-ViewPager_Dem-umbrella.h */,
+				FF1885225EE66751279D4CF74458947D /* Pods-ViewPager_Dem.debug.xcconfig */,
+				0E85D9968C7E17EF4127D9DB19AD0BF9 /* Pods-ViewPager_Dem.release.xcconfig */,
+			);
+			name = "Pods-ViewPager_Dem";
+			path = "Target Support Files/Pods-ViewPager_Dem";
+			sourceTree = "<group>";
+		};
+		278308AB5171C4E97330445FB96249D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A617976FCCACA923BD47210063CC02D0 /* PagingKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CD279A7372379B74939FC7EAF74849C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C444F9D2E3EE48AD63181009D3A187B3 /* PagingKit.modulemap */,
+				81DD83AEDC2EB83B53C964B271DEC1A5 /* PagingKit-dummy.m */,
+				C7FC4D5702D76C6FFDCE6FB5A34E2CDA /* PagingKit-Info.plist */,
+				81B20635817DCBABD48C01E265D7ECC1 /* PagingKit-prefix.pch */,
+				F64AEB2BB8670F6D641728C2BDE392D2 /* PagingKit-umbrella.h */,
+				A0E1844ABE8E2C7DA50E01184FA80261 /* PagingKit.debug.xcconfig */,
+				2D476B4A35EB3697429978E9051B56C1 /* PagingKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PagingKit";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A617976FCCACA923BD47210063CC02D0 /* PagingKit */ = {
+			isa = PBXGroup;
+			children = (
+				F830B3973D9DF1378407A9F5C370BF9B /* Array+NSLayoutConstraint.swift */,
+				33A79AB70D6FB6F3C25A58824EA5D249 /* ContentAppearanceHandler.swift */,
+				53DBDD9BD649627B5FB12E824F35C5AC /* OverlayFocusView.swift */,
+				EBB8F8B4EB4769078EDA6442B5858D02 /* OverlayMenuCell.swift */,
+				F3E4DFC9420A1F38A23CC6BADD72F9B3 /* PagingContentViewController.swift */,
+				8B6ED0016A17F74115D33A8BC1B5A0D6 /* PagingKit.h */,
+				D1B351BD75907210755697E1ACDB5C50 /* PagingKitProxy.swift */,
+				8E2F5B02EB7FA5D5E7DA63CC76025BCB /* PagingMenuView.swift */,
+				BF939C787FD9914E363FF7FA4A4EDF46 /* PagingMenuViewController.swift */,
+				122D21625A903300D1D1F4055943D13B /* TitleLabelMenuViewCell.swift */,
+				C43F75FF02E76D71C32A08C3BB258E94 /* UnderlineFocusView.swift */,
+				3CD279A7372379B74939FC7EAF74849C /* Support Files */,
+			);
+			name = PagingKit;
+			path = PagingKit;
+			sourceTree = "<group>";
+		};
+		B55F54DF2A4D83028A5C1E562ECA2471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD26BE284B3457124829CB4C4FCE8AD6 /* PagingKit */,
+				2EA62F8103316B327AF53EE3A6C272E5 /* Pods-ViewPager_Dem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				278308AB5171C4E97330445FB96249D9 /* Pods */,
+				B55F54DF2A4D83028A5C1E562ECA2471 /* Products */,
+				0EC1D4DD7A368CE33146C9C8E25AC746 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		318672B0B00D25EA82039A0CB59C2C7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A518E1B8F6357195444B7579156D35 /* PagingKit.h in Headers */,
+				EBD06D9159AA6EBC277EEB6451F827B2 /* PagingKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908E864E16D458C8943278761F21C2C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A563B2C2DCC81713272F36FDF46A6015 /* Pods-ViewPager_Dem-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D0EC2DA62F1B2EC342F986026BBD672 /* PagingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5082102E3889337F0864A4B0DB7E440D /* Build configuration list for PBXNativeTarget "PagingKit" */;
+			buildPhases = (
+				318672B0B00D25EA82039A0CB59C2C7F /* Headers */,
+				46A869A23D29F685B8D17379B531B6AB /* Sources */,
+				C95E83417CB924E2DDD207C454F25D30 /* Frameworks */,
+				79F834F9CB973322241C1588B52A4A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagingKit;
+			productName = PagingKit;
+			productReference = CD26BE284B3457124829CB4C4FCE8AD6 /* PagingKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBD9CDD7CBD2CED886822E94B77D51B3 /* Pods-ViewPager_Dem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B227C2FC411AEA983FB9BE58019597 /* Build configuration list for PBXNativeTarget "Pods-ViewPager_Dem" */;
+			buildPhases = (
+				908E864E16D458C8943278761F21C2C8 /* Headers */,
+				F6604C5A0C97A7642E7A307697C8B99F /* Sources */,
+				9D8ABB645044CF815C31F738E30F1E10 /* Frameworks */,
+				544617111CD518B2643A56DC7311040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69261A412FF3A10392758A1FF12CEA08 /* PBXTargetDependency */,
+			);
+			name = "Pods-ViewPager_Dem";
+			productName = Pods_ViewPager_Dem;
+			productReference = 2EA62F8103316B327AF53EE3A6C272E5 /* Pods-ViewPager_Dem */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B55F54DF2A4D83028A5C1E562ECA2471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0EC2DA62F1B2EC342F986026BBD672 /* PagingKit */,
+				FBD9CDD7CBD2CED886822E94B77D51B3 /* Pods-ViewPager_Dem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		544617111CD518B2643A56DC7311040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F834F9CB973322241C1588B52A4A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A869A23D29F685B8D17379B531B6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A835DBF5386F61586BCABAC0F6A82D /* Array+NSLayoutConstraint.swift in Sources */,
+				C536BD85890B8A0F6F701FE26D06569A /* ContentAppearanceHandler.swift in Sources */,
+				5FFEE5149770B046125D06C4C36A22F3 /* OverlayFocusView.swift in Sources */,
+				BBE3523397EEED198EA1AB0E6A32FA55 /* OverlayMenuCell.swift in Sources */,
+				2A70ED82C3A257D65E8093B91D1CE368 /* PagingContentViewController.swift in Sources */,
+				D1825CB5F3FB1840C0635824263C7E15 /* PagingKit-dummy.m in Sources */,
+				C9CF80B6A9390F7411E1435A9DD92E9E /* PagingKitProxy.swift in Sources */,
+				17BB80FAFFC1CF7D139A9D475D1B6F52 /* PagingMenuView.swift in Sources */,
+				219D268CB0D10617DEDA08539C7DB963 /* PagingMenuViewController.swift in Sources */,
+				EBA6206872C637782744828365EB4037 /* TitleLabelMenuViewCell.swift in Sources */,
+				5A11634405DFBBDEEEBBC2E9003AA370 /* UnderlineFocusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6604C5A0C97A7642E7A307697C8B99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24F491886205B8C2BF566D78A62CC70 /* Pods-ViewPager_Dem-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69261A412FF3A10392758A1FF12CEA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagingKit;
+			target = 6D0EC2DA62F1B2EC342F986026BBD672 /* PagingKit */;
+			targetProxy = 43133F0A14510C90C41775203E81DCA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		168BA82E87DA0FF9F3C21F5DA7C3CE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E85D9968C7E17EF4127D9DB19AD0BF9 /* Pods-ViewPager_Dem.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewPager_Dem/Pods-ViewPager_Dem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewPager_Dem/Pods-ViewPager_Dem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23310A2E96A8F7F2191ABE2370644E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D476B4A35EB3697429978E9051B56C1 /* PagingKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagingKit/PagingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingKit/PagingKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PagingKit/PagingKit.modulemap";
+				PRODUCT_MODULE_NAME = PagingKit;
+				PRODUCT_NAME = PagingKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62C451624383FA878E1ED6FFBD901853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E1844ABE8E2C7DA50E01184FA80261 /* PagingKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagingKit/PagingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingKit/PagingKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PagingKit/PagingKit.modulemap";
+				PRODUCT_MODULE_NAME = PagingKit;
+				PRODUCT_NAME = PagingKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E16C7CDA8969A3B2D79F696ACFAFEE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1885225EE66751279D4CF74458947D /* Pods-ViewPager_Dem.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewPager_Dem/Pods-ViewPager_Dem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewPager_Dem/Pods-ViewPager_Dem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B227C2FC411AEA983FB9BE58019597 /* Build configuration list for PBXNativeTarget "Pods-ViewPager_Dem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E16C7CDA8969A3B2D79F696ACFAFEE8 /* Debug */,
+				168BA82E87DA0FF9F3C21F5DA7C3CE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5082102E3889337F0864A4B0DB7E440D /* Build configuration list for PBXNativeTarget "PagingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C451624383FA878E1ED6FFBD901853 /* Debug */,
+				23310A2E96A8F7F2191ABE2370644E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
